@@ -2,7 +2,7 @@
 import { Icon } from "@iconify/react";
 
 // Navbar Logo image (add your image to the src/images directory and uncomment the line below to import your image)
-// import newLogo from "./images/yourFileName"
+import newLogo from "./images/newLogo.jpg"
 
 // Hero Images (add your images to the /images directory with the same names)
 import HeroLight from "./images/hero-light.jpg";
@@ -18,13 +18,13 @@ import Logo from "./images/logo.svg";
 export const githubUsername = "Abhi76076";
 
 // Navbar Logo image
-export const navLogo = null;
+export const navLogo = newLogo;
 
 /* Main
  ************************************************************** 
   Add a custom blog icon or update the hero images for the Main section.
 */
-export const Blog = null;
+export const Blog = <Icon icon="ph:link-bold" />;
 
 // Hero images (imported above - lines 8-9)
 export { HeroLight as Light };
@@ -35,7 +35,7 @@ export { HeroDark as Dark };
   Add a second paragraph for the about me section.
 */
 export const moreInfo =
-  "I enjoy learning about technology and helping others use it to improve their lives and be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
+  "I enjoy learning about technology, enhance my knowledge and improve my skills to be more productive. I built this site with React, React Bootstrap, Redux, and the GitHub REST API.";
 
 /* Skills
  ************************************************************** 
