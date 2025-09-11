@@ -15,15 +15,16 @@ import { updateTitle } from "../utils";
 
 // #region component
 const Home = () => {
-  const { data: userData } = useGetUsersQuery();
+  const { data: userData} = useGetUsersQuery();
+    //console.log("userData:", userData);
 
   React.useEffect(() => {
-    updateTitle(`${userData.name} | Portfolio`);
+    updateTitle(`${userData.name || userData.login} | Portfolio`);
   }, [userData]);
 
   return (
     <>
-      <Hero name={userData.name} />
+      <Hero name={userData.login} />
       <main>
         <AboutMe
           avatar_url={userData.avatar_url}
