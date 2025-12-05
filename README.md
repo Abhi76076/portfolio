@@ -4,7 +4,7 @@ A performant, accessible, progressive React portfolio template that uses the [Gi
 
 Add your GitHub username once and all of your info will automatically be updated. Deploy to GitHub pages in a few simple steps.
 
-## [Live Demo](http://192.168.56.1:3000/Abhi76076/portfolio.git)
+## [Live Demo](https://abhi76076.github.io/portfolio/)
 
 [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights/)
 
@@ -63,7 +63,7 @@ Add your GitHub username once and all of your info will automatically be updated
 
 A helpful guide for Create React App deployments with GitHub Pages can be found [here](https://create-react-app.dev/docs/deployment#github-pages).
 
-1. Update the homepage value ([package.json](https://github.com/Abhi76076/portfolio/blob/main/package.json#L3) line 3)
+1. Update the homepage value ([package.json](https://abhi76076.github.io/portfolio.json#L3) line 3)
 
    ```json
    "homepage": "https://YourUserName.github.io/your-repo/",
